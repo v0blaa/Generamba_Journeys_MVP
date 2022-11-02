@@ -1,0 +1,23 @@
+# Template information section
+name: journeys_MVP
+summary: MVP for the Journeys project
+author: Ischenko Anastasia
+version: 1.0.0
+license: MIT
+
+# The declarations for code files
+
+code_files:
+# View layer
+- {name: View/ViewIO.swift,  path: Code/View/viewIO.swift.liquid}
+- {name: View/ViewController.swift, path: Code/View/viewcontroller.swift.liquid}
+
+# Presenter layer
+- {name: Presenter/ModuleIO.swift, path: Code/Presenter/moduleIO.swift.liquid}
+- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
+
+# Model layer
+- {name: Model/Model.swift, path: Code/Model/model.swift.liquid}
+
+# Configurator
+- {name: Builder.swift, path: Code/builder.swift.liquid}
